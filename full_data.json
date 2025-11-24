@@ -1,0 +1,1393 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-11-21T17:09:42.069Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69209cd61d42ed60fcd31d45",
+    "object_repr": "Toyota Camry (2020)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-11-21T17:12:56.250Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69209d981d42ed60fcd31d47",
+    "object_repr": "Honda Accord (2023)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-11-21T17:14:19.651Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69209deb1d42ed60fcd31d49",
+    "object_repr": "Nissan Altima (2024)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-11-21T17:24:46.854Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69209deb1d42ed60fcd31d49",
+    "object_repr": "Nissan Altima (2024)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-11-21T17:25:17.304Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69209d981d42ed60fcd31d47",
+    "object_repr": "Honda Accord (2023)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-11-21T17:25:26.169Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69209cd61d42ed60fcd31d45",
+    "object_repr": "Toyota Camry (2020)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-11-21T17:26:36.357Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69209cd61d42ed60fcd31d45",
+    "object_repr": "Toyota Camry (2020)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Image url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-11-21T18:22:17.142Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "Sayed",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-11-22T11:43:12.024Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "69219ece0ee186d0ac3f86d1",
+    "object_repr": "Offer 199119.00 on Toyota Camry (2020)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-11-22T11:43:17.334Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "69219ebf0ee186d0ac3f86d0",
+    "object_repr": "Order for Toyota Camry (2020) by aaa",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-11-22T13:09:11.292Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "6921a5ffdc3bf7d93458d294",
+    "object_repr": "Review by aa (1/5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-11-22T13:09:15.712Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "6921a5f7dc3bf7d93458d293",
+    "object_repr": "Review by aaa (3/5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-11-22T13:15:55.404Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "6921b760e31c748a9e8b158c",
+    "object_repr": "Review by Ammar Ahmed (5/5)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Comment\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-11-22T13:27:36.910Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "6921ba48247a1f1d8316ffe5",
+    "object_repr": "Honda Civic (2024)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-11-22T13:28:11.858Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "6921ba48247a1f1d8316ffe5",
+    "object_repr": "Honda Civic (2024)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-11-22T13:29:23.669Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "6921bab3247a1f1d8316ffe8",
+    "object_repr": "Ford Mustang (2019)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-11-22T13:30:30.374Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "6921baf6247a1f1d8316ffea",
+    "object_repr": "Hyundai Sonata (2021)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-11-22T13:31:04.831Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69209deb1d42ed60fcd31d49",
+    "object_repr": "Nissan Altima (2024)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-11-22T13:31:29.626Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69209cd61d42ed60fcd31d45",
+    "object_repr": "Toyota Camry (2020)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-11-22T13:31:45.825Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69209d981d42ed60fcd31d47",
+    "object_repr": "Honda Accord (2023)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-11-22T13:32:05.172Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "6921ba48247a1f1d8316ffe5",
+    "object_repr": "Honda Civic (2024)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-11-22T13:33:01.147Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "6921bab3247a1f1d8316ffe8",
+    "object_repr": "Ford Mustang (2019)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Image url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-11-22T17:25:33.597Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "6921f1fc87c24a98bf8b70ef",
+    "object_repr": "Order for Honda Accord (2023) by aaa",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-11-22T17:26:20.019Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "6921f22c87c24a98bf8b70f2",
+    "object_repr": "Order for Honda Accord (2023) by aaa",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-11-23T15:23:10.749Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "692326c6a53b5ee11f7b9770",
+    "object_repr": "Appointment for aaa on 2255-11-11",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-11-24T10:54:00.583Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69243948e8281c7d82e51d3e",
+    "object_repr": "Lexus IS 350 (2020)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-11-24T10:56:57.443Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "692439f9e8281c7d82e51d40",
+    "object_repr": "Toyota Avalon (2018)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-11-24T10:57:35.612Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69243a1fe8281c7d82e51d42",
+    "object_repr": "BMW M3 (2021)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-11-24T10:58:34.128Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69243a5ae8281c7d82e51d44",
+    "object_repr": "Kia K5 (2021)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-11-24T10:59:51.755Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69243aa7e8281c7d82e51d46",
+    "object_repr": "Nissan 370Z (2017)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-11-24T11:02:11.886Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69243b33e8281c7d82e51d48",
+    "object_repr": "Mercedes-Benz C-Class (2021)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-11-24T11:03:06.590Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69243b6ae8281c7d82e51d4a",
+    "object_repr": "Dodge Charger (2020)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-11-24T11:04:00.111Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69243ba0e8281c7d82e51d4c",
+    "object_repr": "Mazda 6 (2020)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-11-24T11:05:08.085Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69243be4e8281c7d82e51d4e",
+    "object_repr": "Cadillac CTS (2016)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-11-24T11:05:31.760Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69243be4e8281c7d82e51d4e",
+    "object_repr": "Cadillac CTS (2016)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Image url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-11-24T11:07:07.253Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69243b33e8281c7d82e51d48",
+    "object_repr": "Mercedes-Benz C-Class (2021)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-11-24T11:07:24.427Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "69243b6ae8281c7d82e51d4a",
+    "object_repr": "Dodge Charger (2020)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add car",
+    "content_type": 7,
+    "codename": "add_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change car",
+    "content_type": 7,
+    "codename": "change_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete car",
+    "content_type": 7,
+    "codename": "delete_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view car",
+    "content_type": 7,
+    "codename": "view_car"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add offer",
+    "content_type": 8,
+    "codename": "add_offer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change offer",
+    "content_type": 8,
+    "codename": "change_offer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete offer",
+    "content_type": 8,
+    "codename": "delete_offer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view offer",
+    "content_type": 8,
+    "codename": "view_offer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 9,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 9,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 9,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 9,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add appointment",
+    "content_type": 10,
+    "codename": "add_appointment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change appointment",
+    "content_type": 10,
+    "codename": "change_appointment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete appointment",
+    "content_type": 10,
+    "codename": "delete_appointment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view appointment",
+    "content_type": 10,
+    "codename": "view_appointment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add review",
+    "content_type": 11,
+    "codename": "add_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change review",
+    "content_type": 11,
+    "codename": "change_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete review",
+    "content_type": 11,
+    "codename": "delete_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view review",
+    "content_type": 11,
+    "codename": "view_review"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$bRWIQV2Q3hdeWRmzbBC8OP$DVFZeALLEkPqi8ANxSo0sUOd84gvIlEyx43AujrlPMU=",
+    "last_login": "2025-11-24T19:07:21.239Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-11-21T17:03:51.347Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$6YUwOBr7zfqVlm2tzpiIPQ$NHSOsMuWjeLyyWsGHmgRr4J2JdZeFtp4I7O/iNuQmBk=",
+    "last_login": "2025-11-23T16:37:17.045Z",
+    "is_superuser": false,
+    "username": "Sayed",
+    "first_name": "Sayed",
+    "last_name": "Fadel",
+    "email": "sayed.fadhul05@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-11-21T18:24:04.205Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "cars",
+    "model": "car"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "cars",
+    "model": "offer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "cars",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "cars",
+    "model": "appointment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "cars",
+    "model": "review"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "24g5jk3vafddekbj6wqldevje02gl3pw",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnI9toJJT1nsN56vSSAEimfKuLuECkFtG9m3mYy1qXL61yn3Iu5GGdOvxujPOuwA3lguI-2jMMy9Wx3xR50trdR6ut6uH8HHebuW6MFKaWYUklOVTmcQwjsGQ5eI6BoiiSlGuDbxhGLUkuRxbMPBPP-AARSOMo:1vNbuD:4-HgOGMK_XU-6Es8ZQN6S93pFNet1j__8c0m8-LPa0I",
+    "expire_date": "2025-12-08T19:07:21.248Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5ibku1lits1lz20k3j49n5jjnblna6mb",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnI9toJJT1nsN56vSSAEimfKuLuECkFtG9m3mYy1qXL61yn3Iu5GGdOvxujPOuwA3lguI-2jMMy9Wx3xR50trdR6ut6uH8HHebuW6MFKaWYUklOVTmcQwjsGQ5eI6BoiiSlGuDbxhGLUkuRxbMPBPP-AARSOMo:1vNTvA:wrO08KXH14vp-BD5rOXtfmvVhmLj6Qg3eAn8gSqlkX8",
+    "expire_date": "2025-12-08T10:35:48.193Z"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "69209cd61d42ed60fcd31d45",
+  "fields": {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2020,
+    "price": "22700.00",
+    "description": "offers a stylish look, modern features, and great fuel efficiency, all complemented by low mileage.",
+    "image_url": "https://hips.hearstapps.com/hmg-prod/images/2020-toyta-camry-mmp-1-1566921359.jpg?crop=0.878xw:0.737xh;0.0554xw,0.263xh&resize=2048:*"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "69209d981d42ed60fcd31d47",
+  "fields": {
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2023,
+    "price": "28900.00",
+    "description": "combines style, spaciousness, and advanced safety, all with low mileage.",
+    "image_url": "https://d3s8goeblmpptu.cloudfront.net/mrp/honda/2023/accord/2023-honda-accord_landing_629427.jpg"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "69209deb1d42ed60fcd31d49",
+  "fields": {
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2024,
+    "price": "25000.00",
+    "description": "features a sleek design and excellent fuel efficiency, with low mileage for a smooth ride.",
+    "image_url": "https://i.gaw.to/vehicles/photos/40/35/403536-2024-nissan-altima.jpg?640x400"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "6921ba48247a1f1d8316ffe5",
+  "fields": {
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2024,
+    "price": "19800.00",
+    "description": "Offers a modern design, excellent fuel efficiency, and advanced technology for a reliable drive.",
+    "image_url": "https://s3-ap-southeast-1.amazonaws.com/motoristprod/editors%2Fimages%2F1727321095492-629481-honda-civic-hybride-2025-il-etait-temps-1727245541087-17272455411781707419917.jpeg"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "6921bab3247a1f1d8316ffe8",
+  "fields": {
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2019,
+    "price": "28000.00",
+    "description": "Embodies classic muscle car spirit with powerful performance and a sleek, sporty look",
+    "image_url": "https://en.wheelz.me/wp-content/uploads/2024/11/LO2A6517-31231-scaled.jpeg.webp"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "6921baf6247a1f1d8316ffea",
+  "fields": {
+    "make": "Hyundai",
+    "model": "Sonata",
+    "year": 2021,
+    "price": "24500.00",
+    "description": "Features a stylish exterior, spacious interior, and a robust suite of safety features for peace of mind",
+    "image_url": "https://hips.hearstapps.com/hmg-prod/images/2021-hyundai-sonata-n-line-108-1606156377.jpg"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "69243948e8281c7d82e51d3e",
+  "fields": {
+    "make": "Lexus",
+    "model": "IS 350",
+    "year": 2020,
+    "price": "37000.00",
+    "description": "Delivers a blend of luxury, performance, and advanced tech in a compact sedan",
+    "image_url": "https://static0.carbuzzimages.com/wordpress/wp-content/uploads/2024/03/946547-31.jpg?q=50&fit=crop&w=825&dpr=1.5"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "692439f9e8281c7d82e51d40",
+  "fields": {
+    "make": "Toyota",
+    "model": "Avalon",
+    "year": 2018,
+    "price": "28000.00",
+    "description": "Features a spacious interior, smooth ride, and reliable performance for ultimate comfort.",
+    "image_url": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/media/672264/2018-toyota-avalon-in-depth-model-review-car-and-driver-photo-692456-s-original.jpg?crop=0.824xw:0.764xh;0.127xw,0.0787xh&resize=2048:*"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "69243a1fe8281c7d82e51d42",
+  "fields": {
+    "make": "BMW",
+    "model": "M3",
+    "year": 2021,
+    "price": "72000.00",
+    "description": "Offers exhilarating performance and sharp handling in a stylish and luxurious package.",
+    "image_url": "https://hips.hearstapps.com/hmg-prod/images/2021-bmw-m3-competition-143-1628778082.jpg?crop=0.885xw:0.743xh;0.0433xw,0.168xh&resize=2048:*"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "69243a5ae8281c7d82e51d44",
+  "fields": {
+    "make": "Kia",
+    "model": "K5",
+    "year": 2021,
+    "price": "24000.00",
+    "description": "Combines sophistication, comfort, and innovative tech for an enjoyable driving experience.",
+    "image_url": "https://media.ed.edmunds-media.com/kia/k5/2021/oem/2021_kia_k5_sedan_ex_fq_oem_1_1600.jpg"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "69243aa7e8281c7d82e51d46",
+  "fields": {
+    "make": "Nissan",
+    "model": "370Z",
+    "year": 2017,
+    "price": "30000.00",
+    "description": "Embodies sports car excitement with its powerful engine and sleek design.",
+    "image_url": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2015/08/2015-Nissan-370Z-105.jpg?crop=0.958xw:0.880xh;0.0423xw,0.104xh&resize=2048:*"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "69243b33e8281c7d82e51d48",
+  "fields": {
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2021,
+    "price": "52000.00",
+    "description": "Combines luxury, performance, and advanced technology for an exceptional driving experience.",
+    "image_url": "https://pictures.dealer.com/m/mbcharlottesville/1234/480b7f66f7fb41e8bd0220cb8604e84f.png?impolicy=downsize_bkpt&w=380"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "69243b6ae8281c7d82e51d4a",
+  "fields": {
+    "make": "Dodge",
+    "model": "Charger",
+    "year": 2020,
+    "price": "33000.00",
+    "description": "Offers powerful performance with a muscular design and spacious interior, perfect for thrilling drives.",
+    "image_url": "https://hips.hearstapps.com/hmg-prod/images/2020-dodge-charger-mmp-1-1567712643.jpg?crop=1.00xw:0.851xh;0,0.0951xh&resize=2048:*"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "69243ba0e8281c7d82e51d4c",
+  "fields": {
+    "make": "Mazda",
+    "model": "6",
+    "year": 2020,
+    "price": "27400.00",
+    "description": "Blends elegant styling, engaging performance, and a spacious interior for daily driving.",
+    "image_url": "https://hips.hearstapps.com/hmg-prod/images/2020-mazda-6-mmp-1-1572283284.jpg?crop=0.897xw:0.896xh;0.0244xw,0.104xh&resize=1200:*"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": "69243be4e8281c7d82e51d4e",
+  "fields": {
+    "make": "Cadillac",
+    "model": "CTS",
+    "year": 2016,
+    "price": "44500.00",
+    "description": "Offers refined luxury, strong performance, and advanced tech features in a stylish sedan.",
+    "image_url": "https://static.cargurus.com/images/site/2016/02/11/12/01/2016_cadillac_cts-pic-9128614118954997305-1600x1200.jpeg"
+  }
+},
+{
+  "model": "cars.order",
+  "pk": "6923385d39dfe6c1025aad8d",
+  "fields": {
+    "car": "69209cd61d42ed60fcd31d45",
+    "user": 3,
+    "full_name": "Sayed",
+    "email": "sayed.fadhul05@gmail.com",
+    "phone": "38934440",
+    "message": "I need to buy this car",
+    "status": "pending",
+    "created_at": "2025-11-23T16:37:49.871Z"
+  }
+},
+{
+  "model": "cars.offer",
+  "pk": "6923387239dfe6c1025aad8e",
+  "fields": {
+    "car": "69209cd61d42ed60fcd31d45",
+    "user": 3,
+    "amount": "20000.00",
+    "message": "",
+    "status": "pending",
+    "created_at": "2025-11-23T16:38:10.774Z"
+  }
+},
+{
+  "model": "cars.review",
+  "pk": "6921a273720d41c28211e250",
+  "fields": {
+    "user": 2,
+    "full_name": "Ali Hassan",
+    "email": "email@gmail.com",
+    "rating": 5,
+    "comment": "The selection of cars here is fantastic! I found my dream Nissan Altima at an amazing price. The whole buying process was smooth and stress-free",
+    "created_at": "2025-11-22T11:45:55.923Z"
+  }
+},
+{
+  "model": "cars.review",
+  "pk": "6921b64ae31c748a9e8b1585",
+  "fields": {
+    "user": 2,
+    "full_name": "Emily Davis",
+    "email": "emily.davis@example.com",
+    "rating": 5,
+    "comment": "I enjoyed my visit and appreciated the support from the team. Highly recommended!",
+    "created_at": "2025-11-22T13:10:34.149Z"
+  }
+},
+{
+  "model": "cars.review",
+  "pk": "6921b663e31c748a9e8b1586",
+  "fields": {
+    "user": 2,
+    "full_name": "John Smith",
+    "email": "john.smith@gmail.com",
+    "rating": 3,
+    "comment": "I had a great experience at this dealership. The team was helpful and made the process easy.",
+    "created_at": "2025-11-22T13:10:59.173Z"
+  }
+},
+{
+  "model": "cars.review",
+  "pk": "6921b67fe31c748a9e8b1587",
+  "fields": {
+    "user": 2,
+    "full_name": "Lisa Johnson",
+    "email": "lisa.johnson@gmail.com",
+    "rating": 4,
+    "comment": "Fantastic service and a wide selection of cars. I found exactly what I was looking for!",
+    "created_at": "2025-11-22T13:11:27.826Z"
+  }
+},
+{
+  "model": "cars.review",
+  "pk": "6921b69ae31c748a9e8b1588",
+  "fields": {
+    "user": 2,
+    "full_name": "Mark Thompson",
+    "email": "mark.thompson@example.com",
+    "rating": 5,
+    "comment": "Very pleased with my purchase! The staff went above and beyond to assist me",
+    "created_at": "2025-11-22T13:11:54.601Z"
+  }
+},
+{
+  "model": "cars.review",
+  "pk": "6921b6b4e31c748a9e8b1589",
+  "fields": {
+    "user": 2,
+    "full_name": "Daniel Brown",
+    "email": "daniel.brown@example.com",
+    "rating": 4,
+    "comment": "Great atmosphere and friendly employees. I will definitely return for my next car!",
+    "created_at": "2025-11-22T13:12:20.147Z"
+  }
+},
+{
+  "model": "cars.review",
+  "pk": "6921b71ae31c748a9e8b158a",
+  "fields": {
+    "user": 2,
+    "full_name": "Sara Williams",
+    "email": "sara.williams@gmail.com",
+    "rating": 2,
+    "comment": "The selection was decent, but I felt the prices were a bit high compared to other dealerships.",
+    "created_at": "2025-11-22T13:14:02.640Z"
+  }
+},
+{
+  "model": "cars.review",
+  "pk": "6921b737e31c748a9e8b158b",
+  "fields": {
+    "user": 2,
+    "full_name": "Michael Green",
+    "email": "michael.green@gmail.com",
+    "rating": 1,
+    "comment": "The staff was friendly, but the process took much longer than I expected. A bit frustrating.",
+    "created_at": "2025-11-22T13:14:31.520Z"
+  }
+},
+{
+  "model": "cars.review",
+  "pk": "6921b760e31c748a9e8b158c",
+  "fields": {
+    "user": 2,
+    "full_name": "Ammar Ahmed",
+    "email": "ammarahmed@gmail.com",
+    "rating": 5,
+    "comment": "I had a fantastic experience buying my car here. The staff was knowledgeable and attentive to my needs!",
+    "created_at": "2025-11-22T13:15:12.136Z"
+  }
+},
+{
+  "model": "cars.review",
+  "pk": "692338c139dfe6c1025aad90",
+  "fields": {
+    "user": 3,
+    "full_name": "Sayed Fadel",
+    "email": "sayed.fadhul05@gmail.com",
+    "rating": 5,
+    "comment": "10/10 Service and the experience went better than what i expected!",
+    "created_at": "2025-11-23T16:39:29.019Z"
+  }
+},
+{
+  "model": "cars.appointment",
+  "pk": "6923388339dfe6c1025aad8f",
+  "fields": {
+    "user": 3,
+    "full_name": "Sayed",
+    "email": "sayed.fadhul05@gmail.com",
+    "phone": "38934440",
+    "car_interest": "Toyota Camry (2020)",
+    "preferred_date": "2024-11-11",
+    "preferred_time": "afternoon",
+    "message": "",
+    "status": "pending",
+    "created_at": "2025-11-23T16:38:27.943Z"
+  }
+},
+{
+  "model": "cars.appointment",
+  "pk": "6924432b5678d092e9b290d1",
+  "fields": {
+    "user": 2,
+    "full_name": "Michael Green",
+    "email": "michael.green@gmail.com",
+    "phone": "37643211",
+    "car_interest": "BMW M3 (2021)",
+    "preferred_date": "2026-10-10",
+    "preferred_time": "morning",
+    "message": "",
+    "status": "pending",
+    "created_at": "2025-11-24T11:36:11.082Z"
+  }
+},
+{
+  "model": "cars.appointment",
+  "pk": "692443495678d092e9b290d2",
+  "fields": {
+    "user": 2,
+    "full_name": "Sara Williams",
+    "email": "sara.williams@gmail.com",
+    "phone": "31243233",
+    "car_interest": "BMW M3 (2021)",
+    "preferred_date": "2025-11-09",
+    "preferred_time": "evening",
+    "message": "",
+    "status": "pending",
+    "created_at": "2025-11-24T11:36:41.408Z"
+  }
+}
+]
