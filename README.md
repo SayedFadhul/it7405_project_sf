@@ -73,6 +73,33 @@ This environment already includes Python, Django, Djongo, and other required pac
 
 (If you need to choose the correct Python/Conda environment in VS Code, do it via the VS Code Python interpreter selector.)
 
+
+---
+
+### 4. (Optional but Recommended) Drop Existing MongoDB Database
+
+If you have run this project before on the same machine, the database
+`car_sales_db` might already exist and cause duplicate key errors.
+You can drop it first:
+
+```bash
+mongosh
+```
+
+In the `mongosh` shell:
+
+```javascript
+use car_sales_db
+```
+```javascript
+db.dropDatabase()
+```
+```javascript
+exit
+```
+
+Now you start with a clean database.
+
 ---
 
 ### 4. Apply Migrations
