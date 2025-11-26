@@ -4,6 +4,7 @@
 
 Django-based car sales web application using:
 
+- Python
 - Django
 - MongoDB (via Djongo)
 - HTML, CSS, JavaScript, Bootstrap
