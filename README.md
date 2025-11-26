@@ -144,14 +144,36 @@ If the JSON fixture loaded correctly, you’ll see **Available Cars** and other 
 
 ---
 
-## Quick Commands (Summary)
+## Admin Login
 
-```bash
-cd <PROJECT_FOLDER>   # e.g. C:\Users\sayed\Downloads\it7405_project_sf-main
+To access the Django admin panel:
 
-python manage.py migrate
-python manage.py loaddata full_data.json --exclude contenttypes
-python manage.py runserver
 ```
+Username: admin
+Password: admin
+```
+
+### Notes:
+
+* If you're already logged in as another user, **log out first**.
+* Then open:
+  **[http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)**
+* If the page does not refresh properly, perform a **hard refresh**:
+
+```
+Ctrl + Shift + R
+```
+
+### What You Can Do in Admin:
+
+* Add new **Cars**
+* Edit or delete existing cars
+* Add **Reviews**, **Orders**, **Offers**, **Appointments**
+* Manage **Users**
+* Any car you add in the admin panel will automatically appear on the website under **Available Cars**.
+
+---
+
+
 
 
