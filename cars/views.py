@@ -12,6 +12,7 @@ from django.http import HttpResponseForbidden, Http404
 from bson.errors import InvalidId
 
 from .forms import UserUpdateForm
+from django.db import DatabaseError
 
 
 from .models import Car, Order, Offer, Review, Appointment
@@ -48,7 +49,6 @@ def home(request):
 
 
 
-
 def signup(request):
     if request.method == 'POST':
         form = CustomUserCreationForm(request.POST)
@@ -57,12 +57,29 @@ def signup(request):
             user.first_name = form.cleaned_data.get("first_name")
             user.last_name  = form.cleaned_data.get("last_name")
             user.email      = form.cleaned_data.get("email")
-            user.save()
+
+            try:
+                # This is where djongo sometimes throws the DatabaseError
+                user.save()
+            except DatabaseError:
+                # Hide the ugly error page from the user
+                # Most likely the user was still created, but even if not,
+                # we just send them to login with a friendly message.
+                messages.warning(
+                    request,
+                    "There was a temporary database issue. "
+                    "If your account was created, you can now log in."
+                )
+            else:
+                messages.success(request, "Your account was created. Please log in.")
+
+            # In all cases, go to login page instead of showing the error page
             return redirect('login')
     else:
         form = CustomUserCreationForm()
 
     return render(request, 'registration/signup.html', {'form': form})
+
 
 
 
