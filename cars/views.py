@@ -13,7 +13,7 @@ from bson.errors import InvalidId
 
 from .forms import UserUpdateForm
 from django.db import DatabaseError
-
+from django.contrib.auth.models import User
 
 from .models import Car, Order, Offer, Review, Appointment
 from .forms import (
@@ -59,26 +59,39 @@ def signup(request):
             user.email      = form.cleaned_data.get("email")
 
             try:
-                # This is where djongo sometimes throws the DatabaseError
+                # Try to save the new user
                 user.save()
             except DatabaseError:
-                # Hide the ugly error page from the user
-                # Most likely the user was still created, but even if not,
-                # we just send them to login with a friendly message.
-                messages.warning(
-                    request,
-                    "There was a temporary database issue. "
-                    "If your account was created, you can now log in."
-                )
-            else:
-                messages.success(request, "Your account was created. Please log in.")
+                # DB error (djongo / Mongo first-time issue)
+                # Check if the user was actually created or not
+                username = user.username
+                existing = User.objects.filter(username=username).first()
 
-            # In all cases, go to login page instead of showing the error page
+                if existing:
+                    # User is there – treat as success
+                    messages.warning(
+                        request,
+                        "There was a temporary database issue, "
+                        "but your account was created. Please log in."
+                    )
+                    return redirect('login')
+                else:
+                    # User is NOT created – show error, stay on signup page
+                    messages.error(
+                        request,
+                        "We couldn't create your account because of a "
+                        "temporary database error. Please try again."
+                    )
+                    return render(request, 'registration/signup.html', {'form': form})
+
+            # No error → normal success path
+            messages.success(request, "Your account was created. Please log in.")
             return redirect('login')
     else:
         form = CustomUserCreationForm()
 
     return render(request, 'registration/signup.html', {'form': form})
+
 
 
 
