@@ -58,9 +58,9 @@ This environment already includes Python, Django, Djongo, and other required pac
 
 ---
 
-### 3. Open the Project in VS Code
+### 3. Open the Project in VS Code inside Anaconda
 
-1. Open **VS Code**.
+1. Open **VS Code** through **Anaconda Navigator**.
 2. Go to **File → Open Folder…** and select your project folder
    (e.g. `C:\Users\sayed\Downloads\it7405_project_sf-main`).
 3. Open the integrated terminal:
@@ -71,8 +71,24 @@ This environment already includes Python, Django, Djongo, and other required pac
    ```bash
    cd <PROJECT_FOLDER>   # e.g. cd C:\Users\sayed\Downloads\it7405_project_sf-main
    ```
+5. To make sure type `dir` inside the terminal
 
-(If you need to choose the correct Python/Conda environment in VS Code, do it via the VS Code Python interpreter selector.)
+   ```bash
+   dir
+   ```
+   It should look like this :
+   ```bash
+   Mode                 LastWriteTime         Length Name
+   ----                 -------------         ------ ----
+   d----          11/26/2025  9:11 PM                car_sales_site
+   d----          11/26/2025  9:11 PM                cars
+   d----          11/26/2025  9:11 PM                templates
+   -----          11/26/2025  9:11 PM            873 Anaconda_Navigator_Env.yaml
+   -----          11/26/2025  9:11 PM          34240 full_data.json
+   -----          11/26/2025  9:11 PM            692 manage.py
+   -----          11/26/2025  9:11 PM           3571 README.md
+   -----          11/26/2025  9:11 PM            154 requirements.txt
+   ```
 
 
 ---
@@ -103,7 +119,7 @@ Now you start with a clean database.
 
 ---
 
-### 4. Apply Migrations
+### 5. Apply Migrations
 
 Create the database structure in MongoDB:
 
@@ -113,7 +129,7 @@ python manage.py migrate
 
 ---
 
-### 5. Load Demo Data
+### 6. Load Demo Data
 
 Load initial data (users, cars, reviews, orders, etc.) from `full_data.json`:
 
@@ -129,7 +145,7 @@ Installed X object(s) from 1 fixture(s)
 
 ---
 
-### 6. Run the Development Server
+### 7. Run the Development Server
 
 ```bash
 python manage.py runserver
@@ -145,7 +161,20 @@ If the JSON fixture loaded correctly, you’ll see **Available Cars** and other 
 
 ---
 
-## Admin Login
+## Sign Up Note
+
+When setting up the project for the first time, the **first Sign Up attempt may not go through**.
+Simply try again and make sure the password is **strong** and meets the required rules:
+
+* At least 8 characters
+* Not too common
+* Not only numbers
+
+After retrying with a strong password, Sign Up will work normally.
+
+---
+
+## Admin Login (SuperUser)
 
 To access the Django admin panel:
 
@@ -173,7 +202,9 @@ Ctrl + Shift + R
 * Manage **Users**
 * Any car you add in the admin panel will automatically appear on the website under **Available Cars**.
 
----
+
+
+
 
 
 
